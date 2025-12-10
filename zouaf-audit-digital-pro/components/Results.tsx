@@ -83,14 +83,22 @@ export const Results: React.FC<ResultsProps> = ({ result, userName }) => {
               Prêt à mettre ce plan en action et à retrouver votre liberté ?
             </p>
             <a 
-              href="https://zouaf.com" 
+              href="https://app.zouaf.pro/souscription" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-zouaf-orange text-white font-bold text-xl px-10 py-4 rounded-full shadow-lg shadow-zouaf-orange/40 hover:bg-[#E67A58] hover:-translate-y-1 transition-all"
             >
               Découvrir Zouaf Gratuitement
             </a>
-            <p className="mt-4 text-sm text-gray-400">Sans engagement. 15 jours d'essai offert.</p>
+            <p className="mt-4 text-sm text-gray-400">Sans ajout d'informations bancaires</p>
+              <a 
+              href="https://app.lemcal.com/@zouaf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block bg-zouaf-orange text-white font-bold text-xl px-10 py-4 rounded-full shadow-lg shadow-zouaf-orange/40 hover:bg-[#E67A58] hover:-translate-y-1 transition-all"
+            >
+              Réserver une démo
+            </a>
           </div>
         </div>
       </div>
