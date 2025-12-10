@@ -43,6 +43,11 @@ const App = () => {
     }
   };
 
+  const AVATARS = [
+  "/avatar-sophie.jpg",
+  "/avatar-marc.jpg",
+];
+
   return (
     <div className="min-h-screen flex flex-col font-sans text-zouaf-dark bg-zouaf-cream">
       {/* Header */}
