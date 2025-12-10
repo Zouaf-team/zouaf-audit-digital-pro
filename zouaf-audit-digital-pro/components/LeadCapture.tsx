@@ -26,8 +26,8 @@ export const LeadCapture: React.FC<LeadCaptureProps> = ({ onSubmit, isProcessing
         </div>
         <h2 className="text-2xl font-bold text-zouaf-dark mb-2">Audit terminé !</h2>
         <p className="text-gray-600">
-          Nous avons analysé vos réponses. Votre potentiel de gain de temps est énorme.
-          Entrez vos coordonnées pour découvrir votre audit personnalisé et votre plan d'action.
+          Nous avons analysé vos réponses et votre audit est prêt ! Découvrez ce que vous pourriez gagner avec Zouaf.
+          Entrez vos coordonnées pour accéder à votre audit personnalisé et votre plan d'action.
         </p>
       </div>
 
