@@ -56,7 +56,8 @@ const App = () => {
            {/* Official Logo */}
            <img 
              src="/logo-zouaf.png" 
-             alt="Zouaf-logo" />
+             alt="Zouaf-logo" 
+             className="h-8 w-auto"/>
         </div>
         
         {/* No Navigation Menu to prevent distractions */}
