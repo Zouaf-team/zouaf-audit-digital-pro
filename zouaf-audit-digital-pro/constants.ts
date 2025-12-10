@@ -54,11 +54,11 @@ export const TESTIMONIALS = [
   {
     name: "Sophie T.",
     role: "Toiletteuse à Lyon",
-    text: "Avant Zouaf, je passais mes soirées à répondre aux SMS. Aujourd'hui, mes clients réservent en ligne et je gagne 1h30 par jour !"
+    text: "Avant Zouaf, je passais mes soirées à répondre au SMS. Aujourd'hui, mes clients réservent en ligne et je gagne 1h30 par jour !"
   },
   {
     name: "Marc D.",
-    role: "Ostéopathe Animalier",
-    text: "La gestion des fiches clients et des factures est devenue un jeu d'enfant. Moins de paperasse, plus de temps avec les animaux."
+    role: "Ostéopathe Animalier itinérant",
+    text: "La gestion de mon planning et des tournées est devenue un jeu d'enfant. Moins de paperasse, moins de casse-tête, plus de temps avec les animaux."
   }
 ];
