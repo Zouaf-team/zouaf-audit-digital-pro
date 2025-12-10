@@ -210,7 +210,7 @@ const App = () => {
                  <div className="bg-zouaf-dark rounded-2xl p-8 shadow-lg flex flex-col justify-center items-center text-center text-white">
                     <h3 className="text-2xl font-bold mb-4">Et bien plus encore...</h3>
                     <p className="text-gray-300 mb-6 text-sm">Découvrez toutes les fonctionnalités en faisant votre audit personnalisé.</p>
-                    <button onClick={startQuiz} className="bg-zouaf-orange hover:bg-white hover:text-zouaf-orange text-white font-bold py-3 px-6 rounded-full transition-all text-sm">
+                    <button onClick={startQuiz} className="bg-zouaf-orange hover:bg-white hover:text-zouaf-orange text-white font-bold py-3 px-6 rounded-xl transition-all text-sm">
                       Faire mon audit
                     </button>
                  </div>
