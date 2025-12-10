@@ -295,7 +295,7 @@ const App = () => {
                 {TESTIMONIALS.map((t, i) => (
                   <div key={i} className="bg-zouaf-cream p-8 rounded-2xl border border-zouaf-light/50 flex flex-col sm:flex-row gap-6 items-start hover:bg-white hover:shadow-md transition-all">
                     <div className="w-16 h-16 bg-gray-300 rounded-full flex-shrink-0 overflow-hidden border-2 border-white shadow-md">
-                       <img src={`https://picsum.photos/seed/${i + 55}/200/200`} alt="Avatar" className="w-full h-full object-cover" />
+                       <img src={AVATARS[i]} alt="Avatar" className="w-full h-full object-cover" />
                     </div>
                     <div>
                       <div className="flex text-yellow-400 text-sm mb-2">★★★★★</div>
@@ -315,9 +315,9 @@ const App = () => {
               <p className="text-gray-400 uppercase tracking-widest text-sm font-bold mb-8">Ils nous soutiennent</p>
               <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
                 {/* Institutional Logos (using reliable public URLs or placeholders) */}
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Logo_La_French_Tech.svg/320px-Logo_La_French_Tech.svg.png" alt="La French Tech" className="h-12 md:h-16 object-contain" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Bpifrance_logo.svg/320px-Bpifrance_logo.svg.png" alt="Bpifrance" className="h-8 md:h-10 object-contain" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/France_Relance_Logo.svg/320px-France_Relance_Logo.svg.png" alt="France Relance" className="h-12 md:h-14 object-contain" />
+                <img src="/logo-frenchtechtremplin.png" alt="La French Tech" className="h-12 md:h-16 object-contain" />
+                <img src="/bpifrance.png" alt="Bpifrance" className="h-8 md:h-10 object-contain" />
+                <img src="/logo-reservewithgoogle.png" alt="google-reserve" className="h-12 md:h-14 object-contain" />
               </div>
             </div>
             
