@@ -63,12 +63,18 @@ const App = () => {
         {/* No Navigation Menu to prevent distractions */}
 
         <div className="flex flex-wrap items-center justify-center gap-3">
-          <a href="#" className="text-zouaf-dark/70 font-semibold text-sm hover:text-zouaf-orange transition-colors hidden md:block">
+          <a href="https://app.zouaf.pro/souscription" 
+             target="_blank"
+             rel="noopener noreferrer"
+             className="text-zouaf-dark/70 font-semibold text-sm hover:text-zouaf-orange transition-colors">
             Ajouter mon établissement
           </a>
-          <button className="bg-zouaf-dark text-white px-5 py-3 rounded-full font-bold hover:bg-gray-800 transition-colors text-sm shadow-md flex-shrink-0">
+         <a href="https://app.lemcal.com/@zouaf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-zouaf-dark text-white px-5 py-3 rounded-full font-bold hover:bg-gray-800 transition-colors text-sm shadow-md flex-shrink-0">
             Parler à un expert
-          </button>
+           </a>
         </div>
       </header>
 
@@ -87,7 +93,7 @@ const App = () => {
                   <span className="text-zouaf-orange">Zéro charge mentale.</span>
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                  Découvrez pourquoi +1500 professionnels animaliers ont digitalisé leur gestion. 
+                  Découvrez pourquoi +2000 indépendants ont digitalisé leur gestion. 
                   Faites l'audit gratuit et découvrez votre potentiel de croissance immédiat.
                 </p>
                 
@@ -105,7 +111,7 @@ const App = () => {
                       <img key={i} className="w-8 h-8 rounded-full border-2 border-white" src={`https://picsum.photos/seed/${i+20}/50/50`} alt="User" />
                     ))}
                   </div>
-                  <p>Rejoignez <span className="font-bold text-zouaf-dark">1500+ Zouafers</span></p>
+                  <p>Rejoignez <span className="font-bold text-zouaf-dark"> les Zouafers</span></p>
                 </div>
               </div>
 
@@ -114,7 +120,7 @@ const App = () => {
                  <img 
                    src="/toiletteur-mobile.png" 
                    alt="Chien heureux chez le toiletteur" 
-                   className="relative rounded-[2rem] shadow-2xl z-10 w-full max-w-md mx-auto transform hover:rotate-1 transition-transform duration-500 object-cover aspect-[4/5] sm:aspect-square"
+                   className="relative rounded-[2rem] shadow-2xl z-10 w-full max-w-md mx-auto transform hover:rotate-1 transition-transform duration-500 object-cover aspect-[4/3] sm:aspect-square"
                  />
                  {/* Floating badge */}
                  <div className="absolute bottom-6 -right-4 sm:bottom-10 sm:-left-10 bg-white p-4 sm:p-5 rounded-2xl shadow-xl z-20 animate-bounce max-w-[160px] sm:max-w-none" style={{animationDuration: '3s'}}>
@@ -288,8 +294,8 @@ const App = () => {
               <div className="absolute top-0 right-0 w-64 h-64 bg-zouaf-light/20 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2"></div>
               
               <div className="text-center mb-12 relative z-10">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4">Ils ont transformé leur quotidien</h2>
-                <p className="text-gray-500">Découvrez les retours de nos Zouafers certifiés</p>
+                <h2 className="text-3xl md:text-4xl font-bold mb-4"> Ils ont transformé leur quotidien en devenant Zouafer </h2>
+                <p className="text-gray-500"> Et ils gagnent du temps et des clients, pas des migraines, faites comme eux ! </p>
               </div>
 
               <div className="grid md:grid-cols-2 gap-8 relative z-10">
@@ -313,7 +319,7 @@ const App = () => {
 
             {/* Institutional Support Section */}
             <div className="mb-20 text-center">
-              <p className="text-gray-400 uppercase tracking-widest text-sm font-bold mb-8">Ils nous soutiennent</p>
+              <p className="text-gray-400 uppercase tracking-widest text-sm font-bold mb-8">Ils soutiennent Zouaf pour nos innovations</p>
               <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
                 {/* Institutional Logos (using reliable public URLs or placeholders) */}
                 <img src="/logo-frenchtechtremplin.png" alt="La French Tech" className="h-16 md:h-20 object-contain" />
