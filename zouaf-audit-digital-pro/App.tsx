@@ -72,7 +72,7 @@ const App = () => {
          <a href="https://app.lemcal.com/@zouaf"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-zouaf-dark text-white px-5 py-3 rounded-full font-bold hover:bg-gray-800 transition-colors text-sm shadow-md flex-shrink-0">
+            className="bg-zouaf-dark text-white px-5 py-3 rounded-xl font-bold hover:bg-gray-800 transition-colors text-sm shadow-md flex-shrink-0">
             Parler à un expert
            </a>
         </div>
@@ -100,7 +100,7 @@ const App = () => {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                   <button 
                     onClick={startQuiz}
-                    className="bg-zouaf-orange text-white font-bold text-lg px-8 py-4 rounded-full shadow-lg shadow-zouaf-orange/40 hover:bg-[#E67A58] hover:-translate-y-1 transition-all w-full sm:w-auto"
+                    className="bg-zouaf-orange text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg shadow-zouaf-orange/40 hover:bg-[#E67A58] hover:-translate-y-1 transition-all w-full sm:w-auto"
                   >
                     Faire mon audit gratuit
                   </button>
@@ -332,7 +332,7 @@ const App = () => {
             <div className="text-center mb-12">
                <button 
                   onClick={startQuiz}
-                  className="bg-zouaf-dark text-white font-bold text-lg px-10 py-5 rounded-full shadow-2xl hover:bg-black hover:-translate-y-1 transition-all"
+                  className="bg-zouaf-dark text-white font-bold text-lg px-10 py-5 rounded-xl shadow-2xl hover:bg-black hover:-translate-y-1 transition-all"
                 >
                   Commencer mon audit gratuit
                 </button>
