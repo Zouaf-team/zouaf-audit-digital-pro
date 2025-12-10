@@ -50,14 +50,8 @@ const App = () => {
         <div className="flex items-center">
            {/* Official Logo */}
            <img 
-             src="https://zouaf.com/wp-content/uploads/2024/02/Logo-Zouaf-Orange.png" 
-             alt="Zouaf" 
-             className="h-12 md:h-16 object-contain"
-             onError={(e) => {
-               e.currentTarget.onerror = null; 
-               e.currentTarget.src='https://placehold.co/150x50/FF8A65/ffffff?text=ZOUAF';
-             }}
-           />
+             src="/logo-zouaf.png" 
+             alt="Zouaf-logo" />
         </div>
         
         {/* No Navigation Menu to prevent distractions */}
@@ -112,14 +106,14 @@ const App = () => {
               <div className="flex-1 relative order-1 lg:order-2 w-full">
                  <div className="absolute inset-0 bg-zouaf-orange/20 rounded-full blur-3xl transform translate-y-10 scale-90"></div>
                  <img 
-                   src="https://images.unsplash.com/photo-1581888227599-77981198520d?auto=format&fit=crop&q=80&w=800" 
+                   src="/toiletteur-mobile.png" 
                    alt="Chien heureux chez le toiletteur" 
                    className="relative rounded-[2rem] shadow-2xl z-10 w-full max-w-md mx-auto transform hover:rotate-1 transition-transform duration-500 object-cover aspect-[4/5] sm:aspect-square"
                  />
                  {/* Floating badge */}
                  <div className="absolute bottom-6 -right-4 sm:bottom-10 sm:-left-10 bg-white p-4 sm:p-5 rounded-2xl shadow-xl z-20 animate-bounce max-w-[160px] sm:max-w-none" style={{animationDuration: '3s'}}>
                    <p className="font-bold text-zouaf-dark text-sm sm:text-base">Gain de temps moyen</p>
-                   <p className="text-zouaf-orange font-extrabold text-xl sm:text-3xl">+8h <span className="text-sm font-normal text-gray-400">/ semaine</span></p>
+                   <p className="text-zouaf-orange font-extrabold text-xl sm:text-3xl">+6h <span className="text-sm font-normal text-gray-400">/ semaine</span></p>
                  </div>
               </div>
             </div>
@@ -142,7 +136,7 @@ const App = () => {
                  {[
                    {
                      title: "Visibilité en ligne",
-                     desc: "Fiche pro optimisée sur Zouaf, mise en avant locale et parcours de réservation simple pour vos clients.",
+                     desc: "Fiche pro optimisée sur Zouaf, visibilité boostée avec Google Reserve, mise en avant locale et parcours de réservation fluide et sans effort pour vos clients.",
                      icon: (
                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
@@ -162,7 +156,7 @@ const App = () => {
                    },
                    {
                      title: "Gestion administrative",
-                     desc: "Moyens de paiement en ligne et acomptes, facturation automatique, exports comptables prêts pour votre expert-comptable.",
+                     desc: "Moyens de paiement en ligne et acomptes, facturation automatique, exports comptables prêts pour vos déclarations.",
                      icon: (
                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
@@ -172,7 +166,7 @@ const App = () => {
                    },
                    {
                      title: "Marketing & fidélité",
-                     desc: "Codes promo, fidélité en ligne, campagnes mails/SMS ciblées pour remplir votre planning aux bons moments.",
+                     desc: "Codes promo, fidélité en ligne, carte cadeaux et campagnes mails/SMS ciblées pour remplir votre planning aux bons moments.",
                      icon: (
                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
@@ -182,7 +176,7 @@ const App = () => {
                    },
                    {
                      title: "Moins de charge mentale",
-                     desc: "Planning clair, historique des animaux et tournées optimisées : vous savez où vous allez, et quand.",
+                     desc: "Planning clair, historique des animaux et journées optimisées : vous savez où vous allez, quand, pour quoi et pour qui.",
                      icon: (
                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
@@ -225,8 +219,8 @@ const App = () => {
                   
                   <div className="space-y-6">
                     {[
-                      { title: "Tournées optimisées", desc: "Moins de km inutiles, plus de temps facturable." },
-                      { title: "Regroupement par zone", desc: "Vos rendez-vous à domicile organisés intelligemment." },
+                      { title: "Tournées optimisées", desc: "Moins de km inutiles et pertes financières, plus de temps consacré à votre métier." },
+                      { title: "Regroupement par zone", desc: "Vos rendez-vous à domicile organisés intelligemment et automatiquement." },
                       { title: "Frais auto-calculés", desc: "Frais kilométriques intégrés directement à vos RDV." }
                     ].map((feat, i) => (
                       <div key={i} className="flex items-start">
@@ -259,17 +253,17 @@ const App = () => {
                       <div className="space-y-3">
                         <div className="flex items-center">
                           <div className="w-2 h-2 rounded-full bg-zouaf-orange mr-2"></div>
-                          <span className="text-sm text-gray-600">09:00 - Client A</span>
+                          <span className="text-sm text-gray-600">09:00 - 15 min trajet - Client A</span>
                         </div>
                         <div className="h-4 border-l-2 border-dashed border-gray-300 ml-1"></div>
                         <div className="flex items-center">
                           <div className="w-2 h-2 rounded-full bg-zouaf-orange mr-2"></div>
-                          <span className="text-sm text-gray-600">10:15 - Client B (Même zone)</span>
+                          <span className="text-sm text-gray-600">10:15 - 10 min trajet - Client B</span>
                         </div>
                         <div className="h-4 border-l-2 border-dashed border-gray-300 ml-1"></div>
                         <div className="flex items-center">
                           <div className="w-2 h-2 rounded-full bg-zouaf-orange mr-2"></div>
-                          <span className="text-sm text-gray-600">11:45 - Client C</span>
+                          <span className="text-sm text-gray-600">11:45 - 25 min trajet - Client C</span>
                         </div>
                       </div>
                       <div className="mt-4 pt-3 border-t border-gray-100">
