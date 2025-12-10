@@ -318,7 +318,7 @@ const App = () => {
                 {/* Institutional Logos (using reliable public URLs or placeholders) */}
                 <img src="/logo-frenchtechtremplin.png" alt="La French Tech" className="h-16 md:h-20 object-contain" />
                 <img src="/bpifrance.jpg" alt="Bpifrance" className="h-16 md:h-20 object-contain" />
-                <img src="/logo-reservewithgoogle.png" alt="google-reserve" className="h-16 md:h-20 object-contain" />
+                <img src="/reservewithgoogle.png" alt="google-reserve" className="h-16 md:h-20 object-contain" />
               </div>
             </div>
             
