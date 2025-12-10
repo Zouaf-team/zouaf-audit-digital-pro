@@ -316,9 +316,9 @@ const App = () => {
               <p className="text-gray-400 uppercase tracking-widest text-sm font-bold mb-8">Ils nous soutiennent</p>
               <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
                 {/* Institutional Logos (using reliable public URLs or placeholders) */}
-                <img src="/logo-frenchtechtremplin.png" alt="La French Tech" className="h-12 md:h-16 object-contain" />
-                <img src="/bpifrance.png" alt="Bpifrance" className="h-8 md:h-10 object-contain" />
-                <img src="/logo-reservewithgoogle.png" alt="google-reserve" className="h-12 md:h-14 object-contain" />
+                <img src="/logo-frenchtechtremplin.png" alt="La French Tech" className="h-16 md:h-20 object-contain" />
+                <img src="/bpifrance.jpg" alt="Bpifrance" className="h-16 md:h-20 object-contain" />
+                <img src="/logo-reservewithgoogle.png" alt="google-reserve" className="h-16 md:h-20 object-contain" />
               </div>
             </div>
             
