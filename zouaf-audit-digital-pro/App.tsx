@@ -57,7 +57,7 @@ const App = () => {
            <img 
              src="/logo-zouaf.png" 
              alt="Zouaf-logo" 
-             className="h-8 w-auto"/>
+             className="h-12 w-auto"/>
         </div>
         
         {/* No Navigation Menu to prevent distractions */}
