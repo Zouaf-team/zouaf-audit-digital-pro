@@ -62,7 +62,7 @@ const App = () => {
         
         {/* No Navigation Menu to prevent distractions */}
 
-        <div className="flex flex-wrap items-center justify-center gap-3">
+        <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
           <a href="https://app.zouaf.pro/souscription" 
              target="_blank"
              rel="noopener noreferrer"
@@ -111,7 +111,7 @@ const App = () => {
                       <img key={i} className="w-8 h-8 rounded-full border-2 border-white" src={`https://picsum.photos/seed/${i+20}/50/50`} alt="User" />
                     ))}
                   </div>
-                  <p>Rejoignez <span className="font-bold text-zouaf-dark"> les Zouafers</span></p>
+                  <p>Rejoignez tous <span className="font-bold text-zouaf-dark"> les Zouafers</span></p>
                 </div>
               </div>
 
