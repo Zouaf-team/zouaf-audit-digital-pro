@@ -89,8 +89,8 @@ export const Results: React.FC<ResultsProps> = ({ result, userName }) => {
               className="inline-block bg-zouaf-orange text-white font-bold text-xl px-10 py-4 rounded-full shadow-lg shadow-zouaf-orange/40 hover:bg-[#E67A58] hover:-translate-y-1 transition-all"
             >
               Découvrir Zouaf Gratuitement
+             <p className="mt-4 text-sm text-gray-400">Sans ajout d'informations bancaires</p>
             </a>
-            <p className="mt-4 text-sm text-gray-400">Sans ajout d'informations bancaires</p>
               <a 
               href="https://app.lemcal.com/@zouaf" 
               target="_blank" 
