@@ -1,7 +1,9 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { UserAnswers, AuditResult } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({
+  apiKey: import.meta.env.VITE_GEMINI_API_KEY as string,
+});
 
 export const generateAudit = async (answers: UserAnswers): Promise<AuditResult> => {
   const model = "gemini-2.5-flash";
