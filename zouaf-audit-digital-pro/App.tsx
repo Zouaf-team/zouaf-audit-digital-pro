@@ -319,7 +319,7 @@ const App = () => {
 
             {/* Institutional Support Section */}
             <div className="mb-20 text-center">
-              <p className="text-gray-400 uppercase tracking-widest text-sm font-bold mb-8">Ils soutiennent Zouaf pour nos innovations</p>
+              <p className="text-gray-400 uppercase tracking-widest text-sm font-bold mb-8">Ils soutiennent Zouaf </p>
               <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
                 {/* Institutional Logos (using reliable public URLs or placeholders) */}
                 <img src="/frenchtechtremplin.png" alt="Logo La French Tech" className="h-32 md:h-20 object-contain" />
@@ -369,32 +369,15 @@ const App = () => {
             <p className="leading-relaxed">La solution tout-en-un pour les professionnels du monde animalier. Gagnez du temps, vivez de votre passion.</p>
           </div>
           <div>
-            <h4 className="text-white font-bold mb-4">Produit</h4>
-            <ul className="space-y-2">
-              <li><a href="#" className="hover:text-zouaf-orange transition-colors">Fonctionnalités</a></li>
-              <li><a href="#" className="hover:text-zouaf-orange transition-colors">Tarifs</a></li>
-              <li><a href="#" className="hover:text-zouaf-orange transition-colors">Application Mobile</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="text-white font-bold mb-4">Ressources</h4>
-            <ul className="space-y-2">
-              <li><a href="#" className="hover:text-zouaf-orange transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-zouaf-orange transition-colors">Centre d'aide</a></li>
-              <li><a href="#" className="hover:text-zouaf-orange transition-colors">Communauté</a></li>
-            </ul>
-          </div>
-          <div>
              <h4 className="text-white font-bold mb-4">Légal</h4>
              <ul className="space-y-2">
-               <li><a href="#" className="hover:text-zouaf-orange transition-colors">Mentions légales</a></li>
-               <li><a href="#" className="hover:text-zouaf-orange transition-colors">Confidentialité</a></li>
-               <li><a href="#" className="hover:text-zouaf-orange transition-colors">CGV</a></li>
+               <li><a href="https://zouaf.com/pages/informations-legales" className="hover:text-zouaf-orange transition-colors">Mentions légales</a></li>
+               <li><a href="https://zouaf.com/pages/politique-de-confidentialite" className="hover:text-zouaf-orange transition-colors">Confidentialité</a></li>
              </ul>
           </div>
         </div>
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-           <span>&copy; {new Date().getFullYear()} Zouaf. Tous droits réservés.</span>
+           <span>&copy; {new Date().getFullYear()} 2025 SARL CONNECTiLiB GROUPE - Marque Zouaf. Tous droits réservés.</span>
            <span className="flex items-center gap-2">Fait avec ❤️ pour les <span className="text-2xl">🐾</span></span>
         </div>
       </footer>
