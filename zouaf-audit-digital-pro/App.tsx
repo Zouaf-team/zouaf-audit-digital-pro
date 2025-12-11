@@ -322,9 +322,14 @@ const App = () => {
               <p className="text-gray-400 uppercase tracking-widest text-sm font-bold mb-8">Ils soutiennent Zouaf pour nos innovations</p>
               <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
                 {/* Institutional Logos (using reliable public URLs or placeholders) */}
-                <img src="/logo-frenchtechtremplin.png" alt="La French Tech" className="h-16 md:h-20 object-contain" />
-                <img src="/bpifrance.jpg" alt="Bpifrance" className="h-16 md:h-20 object-contain" />
-                <img src="/reservewithgoogle.png" alt="google-reserve" className="h-16 md:h-20 object-contain" />
+                <img src="/frenchtechtremplin.png" alt="Logo La French Tech" className="h-16 md:h-20 object-contain" />
+                <img src="/bpifrance.png" alt="Logo Bpifrance" className="h-16 md:h-20 object-contain" />
+                <img src="/reservewithgoogle.png" alt="logo google-reserve" className="h-16 md:h-20 object-contain" />
+                <img src="/créditmutuel.png" alt="logo credit mutuel" className="h-16 md:h-20 object-contain" />
+                <img src="/latribune.png" alt="logo la tribune" className="h-16 md:h-20 object-contain" />
+                <img src="/capital.png" alt="logo capital" className="h-16 md:h-20 object-contain" />
+                <img src="/ledauphinelibere.png" alt="logo le dauphiné libéré" className="h-16 md:h-20 object-contain" />
+                <img src="/grainedeboss.png" alt="logo graine de boss" className="h-16 md:h-20 object-contain" />
               </div>
             </div>
             
